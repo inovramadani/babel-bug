@@ -2,7 +2,10 @@
   "name": "react",
   "version": "1.0.0",
   "description": "React example starter project",
-  "keywords": ["react", "starter"],
+  "keywords": [
+    "react",
+    "starter"
+  ],
   "main": "src/index.js",
   "dependencies": {
     "@babel/core": "7.12.9",
@@ -12,6 +15,7 @@
     "@babel/register": "7.12.1",
     "@testing-library/react": "11.2.2",
     "antd": "4.9.1",
+    "babel-plugin-module-resolver": "4.0.0",
     "chai": "4.2.0",
     "jsdom": "16.4.0",
     "jsdom-global": "3.0.2",
@@ -29,5 +33,10 @@
     "test": "mocha --exit \"src/**/*.test.js\"",
     "eject": "react-scripts eject"
   },
-  "browserslist": [">0.2%", "not dead", "not ie <= 11", "not op_mini all"]
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }
