@@ -21,10 +21,7 @@
       {
         "root": [
           "./src"
-        ],
-        "alias": {
-          "underscore": "lodash"
-        }
+        ]
       }
     ]
   ]
